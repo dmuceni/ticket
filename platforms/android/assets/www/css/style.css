@@ -1,0 +1,91 @@
+/* Empty. Add your own CSS if you like */
+
+@font-face {
+    font-family: 'OpenSans-CondLight';
+    src:url('../fonts/OpenSans-CondLight.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  font-family: 'OpenSans-CondLight', sans-serif;
+}
+.center{
+	text-align : center;
+  vertical-align: middle;
+  font-family: "OpenSans-CondLight";
+  
+  
+}
+.colCalendar{
+    text-align : center;
+  vertical-align: middle;
+  font-family: "OpenSans-CondLight";
+  font-size: 1.5em
+}
+.centerBigA{
+  text-shadow: 5px 5px 5px #cccccc;
+ 
+  
+}
+.centerBigD{
+  
+  text-shadow: 5px 5px 5px #cccccc;
+}
+h3{
+  padding-top: 0.5em;
+	font-size: 3em;
+	line-height: 100%;
+  color: #444444;
+}
+h1{
+  font-family: 'OpenSans-CondLight', sans-serif;
+	font-size: 18em;
+	line-height: 90%;
+  color: #222222;
+}
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+
+.big{
+font-family: 'OpenSans-CondLight', sans-serif;
+font-size: 1.8em;
+padding-top: 0.3em;
+padding-bottom: 0.3em;
+}
+.ticket{
+  
+  font-family: 'OpenSans-CondLight', sans-serif;
+  font-size:1.8em;
+vertical-align: middle;
+
+ 
+}
+
+a:link  { 
+    color: #444444; 
+    text-decoration: none
+}
+a:visited {
+    text-decoration: none; color : #444444;
+}
+.used  {background-color: #dddddd; color:#444444; text-align: center;}
+
+.unUsed {background-color: #ffffffs; text-align: center;}
+
+.icona-grande,
+.icona-grande:before{
+font-size:2em;
+vertical-align: middle;
+}
+
